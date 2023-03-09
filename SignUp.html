@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Creating New Account</title>
+<style>
+
+*{
+    background-color: rgba(7, 6, 6, 0.925);
+}
+.main-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-class .createAcc-control-div {
+    background-color: rgb(5, 5, 5);
+    height: 40%;
+    width: 70%;
+    border-radius: 10px;
+    border: 0px solid rgb(14, 13, 13);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.main-class .createAcc-control-div >form{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    align-items: center;
+    /* padding-top: 40px; */
+    background-color: rgb(5, 5, 5);
+
+}
+
+form > h2{
+    color: white;
+}
+form >input{
+    outline: none;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-top: 1%;
+    color: white;
+    width: 110%;
+    height: 30px;
+    border: 1px solid rgb(53, 52, 52);
+}
+
+
+form > .btn-control {
+    width: 81%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(31, 31, 31);
+    
+}
+
+form > .btn-control > button {
+    width: 214px;
+    height: 35px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(97, 97, 97);
+
+}
+
+form > .btn-register-control {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+form > .btn-register-control > button{
+    width: 80%;
+    height: 35px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(97, 97, 97);
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="main-class">
+   <div class="createAcc-control-div">
+    <form>
+        <h2>Register New Account</h2> 
+        <input type="text" required placeholder="Enter Your First Name" />
+        <input type="text" required placeholder="Enter Your Last Name" />  
+        <input type="Email Address" required placeholder="Enter email address" />
+        <input type="Set Password" required placeholder="Set Password - max. 12 characters" />
+
+            <div class="btn-control"></div>
+        <div class="btn-register-control">
+            <button>Register Now</button></div>
+
+    </form>
