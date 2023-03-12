@@ -1,0 +1,31 @@
+.main-welcome-text {
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.main-welcome-text .text-cotrol-main {
+    /* height: 50%; */
+    background-color: rgba(5, 5, 5, 0.548);
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 70%;
+    padding-left: 5%;
+    border-left: 10px solid rgb(255, 255, 255);  
+}
+.main-welcome-text .text-cotrol-main >h1{
+    color: white;
+    /* later-spacing: 2% */
+    letter-spacing: 4%;
+    font-size: 50px;
+}
+.main-welcome-text .text-cotrol-main >p {
+    margin: 0%;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 17px;
+}
